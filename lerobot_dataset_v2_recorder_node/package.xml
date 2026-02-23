@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>lerobot_dataset_v2_recorder_node</name>
+  <version>0.1.0</version>
+  <description>LeRobot Dataset v2.1 compatible recorder for ROS 2. Records Image topics and JointState to Parquet + MP4 with LeRobot-compatible metadata.</description>
+
+  <maintainer email="ray255ar@gmail.com">dev</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>vla_msgs</depend>
+  <depend>ament_index_cpp</depend>
+  <depend>std_srvs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,22 @@
+{
+  "codebase_version": "v2.1",
+  "fps": 30.0,
+  "robot_type": "unknown",
+  "keys": ["observation.state"],
+  "video_keys": [],
+  "shapes": {
+    "observation.state": [-1]
+  },
+  "names": {},
+  "total_episodes": 0,
+  "total_frames": 0,
+  "total_tasks": 0,
+  "total_videos": 0,
+  "total_chunks": 1,
+  "chunks_size": 1000,
+  "data_path": "data/chunk-{chunk:03d}/episode_{episode_index:06d}.parquet",
+  "video_path": "videos/chunk-{chunk:03d}/{video_key}/episode_{episode_index:06d}.mp4",
+  "splits": {"train": "0:0"},
+  "license": "apache-2.0",
+  "tags": []
+}
